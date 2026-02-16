@@ -1,0 +1,46 @@
+# ============================================================================
+# .gitignore - Ignorar todo excepto carpeta de modelos
+# ============================================================================
+
+# Carpetas de datos (archivos parquet pesados)
+cbros_ct_datos_cliente_masked/
+cbros_ct_gestiones_procesadas_masked/
+cbros_ct_mejor_canal_masked/
+
+
+
+# NO ignorar la carpeta de modelos (descomenta si quieres incluirla)
+!modelos/
+!modelos/**
+
+# Entorno virtual de Python
+venv/
+env/
+.venv/
+.env/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# VS Code
+.vscode/
+*.code-workspace
