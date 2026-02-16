@@ -7,11 +7,7 @@ cbros_ct_datos_cliente_masked/
 cbros_ct_gestiones_procesadas_masked/
 cbros_ct_mejor_canal_masked/
 
-# Archivos CSV grandes
-*.csv
-ids_prueba_ba_mejor_canal_contacto_oot.csv
-submission*.csv
-resultado*.csv
+
 
 # NO ignorar la carpeta de modelos (descomenta si quieres incluirla)
 !modelos/
@@ -45,25 +41,6 @@ wheels/
 .installed.cfg
 *.egg
 
-# Jupyter Notebook
-.ipynb_checkpoints/
-*/.ipynb_checkpoints/*
-
 # VS Code
 .vscode/
 *.code-workspace
-
-# Archivos temporales
-*.tmp
-*.temp
-temp_*.py
-*.log
-
-# Sistema operativo
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# Resultados y reportes (opcional)
-resultados/
-reportes/
